@@ -1,0 +1,24 @@
+.card{
+    margin-top: 1rem;
+}
+
+.card__img{
+    width: 100%;
+}
+
+.results__grid{
+    display: grid;
+    gap: 2rem;
+}
+
+@media (min-width: 500px){
+    .results__grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (min-width: 800px){
+    .results__grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
