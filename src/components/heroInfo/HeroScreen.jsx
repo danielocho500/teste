@@ -1,6 +1,6 @@
 import React from 'react';
 import './heroInfo.css'
-import noPhotoImg from '../../img/noPhoto.svg'
+import noPhotoImg from '../../img/noPhoto.png'
 
 export const HeroScreen = ({ data }) => {
 
