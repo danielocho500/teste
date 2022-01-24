@@ -8,6 +8,7 @@ import {
 import { NotFound } from '../components/basics/NotFound'
 import { HeroInfo } from '../components/heroInfo/HeroInfo'
 
+
 import { SearchScreen } from '../components/search/SearchScreen'
 
 export const AppRouter = () => {

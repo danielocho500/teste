@@ -9,7 +9,7 @@ export const Header = () => {
     const returnHome = (e) => {
         e.preventDefault();
 
-        navigation("/herodex");
+        navigation("/teste");
     }
 
     return (

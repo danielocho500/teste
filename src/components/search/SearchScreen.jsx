@@ -9,6 +9,8 @@ import { Header } from '../basics/Header';
 import { HeroList } from '../heroList/HeroList';
 import { Loading } from '../basics/Loading';
 
+import searchImg from '../../img/search.svg';
+
 export const SearchScreen = () => {
 
     const navigate = useNavigate();
@@ -99,7 +101,7 @@ export const SearchScreen = () => {
                                 className='btn btn_search'
                                 value=''
                             > 
-                                <img src='/assets/img/search.svg' alt='search logo' />
+                                <img src={searchImg} alt='search logo' />
 
                             </button>
                         </div>
